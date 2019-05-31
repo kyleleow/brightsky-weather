@@ -7,9 +7,16 @@ body {
     color: whitesmoke;
 }
 
-.full-height {
+.content-holder {
     height: 100vh;
+    /* flex-direction: column;     */
 }
+
+/* @media (min-width: 768px){
+    .content-holder {
+        flex-direction: row;
+    }
+} */
 
 @keyframes fadeIn {
     from { opacity: 0; }
