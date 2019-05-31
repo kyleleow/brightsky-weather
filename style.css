@@ -1,0 +1,36 @@
+body {
+    /* background-image: url('./asset/lance-asper-1577311-unsplash.jpg'); */
+    background-image: url('./asset/ethan-dow-1509463-unsplash.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+
+    color: whitesmoke;
+}
+
+.full-height {
+    height: 100vh;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+      to { opacity: 1; }
+}
+
+#greeting {
+    animation-duration: 3s;
+    animation-delay: 0.1s;
+    animation-name: fadeIn;
+}
+
+.iot-temperature-holder {
+    background: rgba(255, 255, 255, 0.25)
+}
+
+.title-holder {
+    border-bottom: 1px solid white;
+    margin: 10px 0px;
+}
+
+.temperatureReading, .readingTitle {
+    font-size: large;
+}
